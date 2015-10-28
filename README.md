@@ -102,7 +102,7 @@ validate the `redirect_url` GET parameter used by this application.
 Click the button below to quickly deploy this application running
 in Heroku, then follow the prompts to configure the application.
 
-<a href="https://heroku.com/deploy?template=https%3A%2F%2Fgithub.com%2Fjpf%2Fokta-social-auth-demo-app">
+<a href="https://heroku.com/deploy?template=https%3A%2F%2Fgithub.com%2FRobingaal%2Fokta-social-auth-demo-app">
   <img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy">
 </a>
 
