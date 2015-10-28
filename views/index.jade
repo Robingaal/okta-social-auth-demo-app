@@ -20,7 +20,7 @@ block content
             each idp in identityProviders
               - var idpUrl = idp._links.login.href
               if redirectUri
-                - idpUrl = idpUrl + "?redirect_uri=" + redirectUri + "&client_id=" + clientId
+                - idpUrl = idpUrl + "&redirect_uri=" + redirectUri + "&client_id=" + clientId
               if popup == 'on'
                 a(class="#{idp.type}-login button tiny", onclick='popup("#{idpUrl}")') #{idp.name}
               else
